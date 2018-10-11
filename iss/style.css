@@ -47,3 +47,7 @@ body {
 	top: calc(50% - 175px);
 	border-radius: 10px;
 }
+
+.rounded-border {
+	border-radius: 10px;
+}
