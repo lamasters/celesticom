@@ -26,6 +26,7 @@ body {
 #navBar {
     font-family: 'Prosto One', cursive;
     font-size: 18px;
+    font-size: calc(0.5vw + 1vh);
     font-weight: bold;
     color: black;
     align-items: center;
