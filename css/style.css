@@ -84,8 +84,8 @@ a:hover {
 
 .content-img {
     object-fit: contain;
-    opacity: 0.7;
     height: 100%;
+    opacity: 0.85;
     border-radius: 10%;
 }
 
