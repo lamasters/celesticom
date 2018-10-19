@@ -1,0 +1,71 @@
+body {
+	background-color: #121212;
+}
+
+#background {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	min-width: 1920px;
+	min-height: 1080px;
+	width: 100%;
+	height: 100%
+}
+
+#homeLink {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	top: 5px;
+	left: 5px;
+}
+
+#homeImg {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	top: 5px;
+	left: 5px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 100%;
+}
+
+#HomeButton {
+	position: fixed;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	top: 5px;
+	left: 5px;
+	background-color: white;
+	color: black;
+	font-family: 'Prosto One', cursive;
+    	font-size: 18px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#player {
+	position: fixed;
+	width: calc(100% - 30px - 1025px);
+	height: calc(90% - 60px);
+	left: 10px;
+	top: calc(5% + 60px);
+}
+
+#tracker {
+	position: fixed;
+	width: 960px;
+	right: 20px;
+	top: calc(50% - 270px);
+	border-radius: 10px;
+}
+
+.rounded-border {
+	border-radius: 10px;
+}
