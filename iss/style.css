@@ -70,6 +70,26 @@ body {
 	border-radius: 10px;
 }
 
+a:link {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a:hover {
-	color: gray;
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
 }
