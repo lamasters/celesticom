@@ -69,3 +69,7 @@ body {
 .rounded-border {
 	border-radius: 10px;
 }
+
+a:hover {
+	color: gray;
+}
