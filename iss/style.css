@@ -53,9 +53,9 @@ body {
 #player {
 	position: fixed;
 	width: calc(100% - 30px - 1025px);
-	height: calc(90% - 60px);
+	height: calc(60%);
 	left: 10px;
-	top: calc(5% + 60px);
+	top: calc(20%);
 }
 
 #tracker {
