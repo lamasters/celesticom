@@ -13,7 +13,7 @@
         <!--General style-->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/planetstyle.css">
-        <link rel="shortcut icon" href="iss/favicon.ico" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
         
         <!-- Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Coda|Prosto+One|Share|Iceland" rel="stylesheet">
@@ -103,10 +103,10 @@
 		</div>
         
         <div class="row content-panel" id="about">
-            <div class="col-md-12 content-header text-center" id="aboutTitle">Mission</div>
+            <div class="col-md-12 content-header text-center" id="aboutTitle">About</div>
             <div class="col-md-1 hidden-xs"></div>
+            <div class="col-md-6 col-xs-12 text-center text-md-left d-flex content-body" id="aboutBody">Through the utilisation of novel signal distribution tactics and smart information forwarding algorithms, Celesticom looks to redefine satellite communication. The first satellite was launched over 60 years ago and since then, the equation has been largely the same. We think it's time that satellites are modernized and designed to fulfill our needs here on Earth while also looking to the future of communication with other planets.</div>
             <div class="col-md-4 col-xs-12 img-container"><img class="col-12 content-img" id="aboutImage" src="img/AdobeStock_225316801.jpeg"/></div>
-            <div class="col-md-6 col-xs-12 text-center text-md-left d-flex content-body" id="aboutBody">The goal of Celesticom is to revolutionize communication in space. We look to create inexpensive satellites and to establish vast planetary and interplanetary networks.</div>
             <div class="col-md-1 hidden-xs"></div>
         </div>
         <!--
@@ -119,13 +119,13 @@
         </div>
         -->        
         <div class="col-12 d-inline-flex" id="header">
-            <div class="d-none d-md-block col-md-6 col-lg-6 text-center text-md-left" id="title"><a href="index.html">Celesticom</a></div>
+            <div class="d-none d-md-block col-md-6 col-lg-6 text-center text-md-left" id="title"><a href="http://www.celesticom.space">Celesticom</a></div>
 	    <div class="d-none d-lg-block col-lg-2"></div>
             <div class=" col-12 col-md-6 col-lg-4 d-flex" id="navBar">   
-		<div class="col-3 col-md-4 d-inline text-center" id="navHome"><a href="index.html">Home</a></div>
+		<div class="col-3 col-md-4 d-inline text-center" id="navHome"><a href="http://www.celesticom.space">Home</a></div>
 	    	<div class="d-block d-md-none col-6 text-center" id="smTitle">Celesticom</div>
-                <div class="col-3 col-md-4 d-inline text-center" id="navPhys"><a href = "about">About</a></div>     
-                <div class="d-none d-md-inline col-md-4"><a href="iss">ISS Live</a></div>        
+                <div class="col-3 col-md-4 d-inline text-center" id="navPhys"><a href="">About</a></div>     
+                <div class="d-none d-md-inline col-md-4"><a href="http://www.celesticom.space/iss">ISS Live</a></div>        
             </div>
         </div>
         
