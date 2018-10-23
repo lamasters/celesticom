@@ -58,6 +58,7 @@ body {
 	left: 10px;
 	top: calc(5% + 60px);
 	border-radius: 2%;
+	overflow: hidden;
 }
 
 #tracker {
@@ -66,10 +67,12 @@ body {
 	right: 10px;
 	top: calc(50% - 175px);
 	border-radius: 2%;
+	overflow: hidden;
 }
 
 .rounded-border {
 	border-radius: 2%;
+	overflow: hidden;
 }
 
 a:link {
