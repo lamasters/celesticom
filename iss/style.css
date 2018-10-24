@@ -35,9 +35,9 @@ body {
 #HomeButton {
 	position: fixed;
 	width: 70px;
-	height: 30px;
+	height: 60px;
 	line-height: 30px;
-	top: 5px;
+	top: -15px;
 	left: 5px;
 	background-color: white;
 	color: black;
@@ -89,13 +89,13 @@ body {
 }
 
 @keyframes homeHover {
-	0% {top: -25px; height: 40px; opacity: 0.6;}
-	100% {top: 5px; height: 30px; opacity: 1;}
+	0% {top: -45px; line-height: 30px; opacity: 0.6;}
+	100% {top: -15px; line-height: 70px; opacity: 1;}
 }
 
 @keyframes homeIn {
-	0% {top: 5px; height: 30px; opacity: 1;}
-	100% {top: -25px; height: 40px; opacity: 0.6;}
+	0% {top: -15px; line-height: 70px; opacity: 1;}
+	100% {top: -45px; line-height: 30px; opacity: 0.6;}
 }
 
 a:link {
