@@ -22,9 +22,10 @@
 
 
 body {
+	position: absolute;
 	background-color: #cce6ff;
 	font-family: 'Libre Baskerville', serif;
-	width: 100%;
+	width: 100vw;
 	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
