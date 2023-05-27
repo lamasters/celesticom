@@ -1,0 +1,244 @@
+@keyframes fadeInLeft {
+  	0% { 
+		transform: translate(-50px, 0);
+  		opacity: 0;
+	}
+	100% { 
+		transform: translate(0, 0);
+  		opacity: 1;
+	}
+}
+
+@keyframes fadeInRight {
+        0% {
+                transform: translate(50px, 0);
+                opacity: 0;
+        }
+        100% { 
+                transform: translate(0, 0);
+                opacity: 1;
+        }
+}
+
+
+body {
+	background-color: #cce6ff;
+	font-family: 'Libre Baskerville', serif;
+	width: 100%;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+a {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 150;
+	color: #0000b3;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0000b3;
+}
+
+#title {
+	position: relative; 
+	color: #fff;
+	font-size: 96px;
+	text-align: center;
+	font-weight: 100;
+}
+
+#title-frame {
+	background: url('assets/liam_elena_2.jpg');
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px 0 30px 0;
+	font-family: 'Sacramento', cursive;
+	min-height: 40vw;
+}
+
+#top-subtitle {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+}
+
+#top-rsvp {
+	position: relative;
+        background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+#top-rsvp:hover {
+	background-color: #fff;
+	color: #666;
+}
+
+#bottom-rsvp {
+	position: relative;
+	background: transparent;
+	left: calc(50% - 100px);
+}
+
+#bottom-rsvp:hover {
+	background-color: #fff;
+	color: #cce6ff;
+}
+
+#frame-1 {
+	background: url('assets/liam_elena_1.jpg');
+	background-size: cover;
+	background-position-x: center;
+}
+
+#frame-2 {
+	background: url('assets/liam_elena_4.png');
+	background-size: cover;
+}
+
+#frame-3 {
+	background: url('assets/liam_elena_3.jpg');
+	background-size: cover;
+	background-position-x: center;
+}
+
+#rsvp-frame {
+	flex-direction: column;
+	justify-content: center;
+	min-height: 40vw;
+}
+
+.divider {
+	width: 100%;
+	height: 100px;
+}
+
+.line {
+	position: relative;
+	width: 90%;
+	left: 5%;
+	top: 49px;
+	height: 2px;
+	background-color: #8888AA;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.frame-img {
+	min-height: 50vw;
+}
+
+.fade-in-left {
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: all 1s;
+}
+
+.fade-in-right {
+	opacity: 0;
+	transform: translate(50px, 0);
+	transition: all 1s;
+}
+
+.fade-in-left.visible {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.fade-in-right.visible {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.frame {
+	width: 100%;
+        display: flex;
+        flex-direction: row;
+}
+
+
+.rsvp {                 
+        width: 220px;       
+	height: 80px;
+        font-size: 24px;   
+        border-color: #fff; 
+        border-style: solid;
+        border-width: 5px;
+        color: #fff;  
+}
+
+
+.subtitle {
+	font-size: 36px;
+	text-align: center;
+	color: #111;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-weight: 100;
+}
+
+.left {
+	position: relative;
+	width: 50%;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.right {
+	position: relative;
+	width: 50%;
+	right: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.left-justify {
+	text-align: left;
+}
+
+.right-justify {
+	text-align: right;
+}
+
+.center-justify {
+	text-align: center;
+}
+
+.header {
+	font-size: 72px;
+	color: #111;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-weight: 100;
+}
+
+.footer {
+	text-align: center;	
+}
+
+h2.left-justify {
+	width: 50%;
+}
+
+h2.right-justify {
+	width: 50%;
+}
