@@ -113,6 +113,12 @@ a:visited {
 	background-position-x: center;
 }
 
+#frame-4 {
+	background: url('assets/liam_elena_5.jpg');
+	background-size: cover;
+	background-position-x: center;
+}
+
 #rsvp-frame {
 	flex-direction: column;
 	justify-content: center;
