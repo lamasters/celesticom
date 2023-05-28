@@ -1,117 +1,122 @@
-
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRJ1PN6SKM"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
 
-			gtag('config', 'G-WRJ1PN6SKM');
-		</script>
-		<title>Liam & Elena Masters</title>
-		<link rel='stylesheet' href='style.css'>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div id='title-frame'>
-			<h1 id='title'>Elena & Liam</h1>
-			<h3 class='subtitle' id='top-subtitle'>Come celebrate with us</h3>
-			<a href='#rsvp-frame'><button id='top-rsvp' class='rsvp'>RSVP</button></a>
-		</div>
-		<div class='divider'>
-			<div class='line'></div>
-		</div>
-		<div class='frame' id='date-frame'>
-			<div class='frame-img fade-in-left left' id='frame-1'></div>
-			<div class='right'>
-				<h2 class='center-justify header'>Thursday, June 13th 2024</h2>
-				<h3 class='subtitle'>3:00 to 10:00 PM</h3>
-			</div>
-		</div>
-		<div class='divider'>
-				<div class='line'></div> 
-		</div>
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WRJ1PN6SKM"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag("js", new Date());
 
-		<div class='frame' id='location-frame'>
-			<div class='left'>
-				<a href='https://wychmerebeachclub.com' target='_blank'><h2 class='center-justify header'>Wychmere Beach Club</h2></a>
-				<h3 class='subtitle'>Harwich Port, MA</h3>
-			</div>
-			<div class='frame-img fade-in-right right' id='frame-2'></div>
-		</div>
-		<div class='divider'>
-                        <div class='line'></div> 
-                </div>
-		<div class='frame'>
-			<div class='frame-img fade-in-left left' id='frame-3'></div>
-			<div class='right'>
-				<h2 class='center-justify header'>Hotels</h2>
-				<h3 class='subtitle'>Rentals nearby</h3>
-				<div class='list-container'>
-					<a href='https://wychmerebeachclub.com/guest-rooms' target='_blank'>Wychmere Beach Club</a>
-					<a href='https://www.shoalscapecodinn.com' target='_blank'>Handkerchief Shoals Inn</a>
-					<a href='https://www.kingfisherharwichport.com' target='_blank'>Kingfisher Hotel</a>
-					<a href='https://www.chathamtides.com' target='_blank'>Chatham Tides</a>
-					<a href='https://www.vacationcapecod.com' target='_blank'>Vacation Rentals</a>
-				</div>
-			</div>
-		</div>
-		<div class='divider'>
-			<div class='line'></div>
-		</div>
-		<div class='frame'>
-			<div class="left">
-				<h2 class='center-justify header'>Registry</h2>
-				<h3 class='subtitle'>Coming Soon</h3>
-			</div>
-			<div class='frame-img fade-in-right right' id='frame-4'></div>
-		</div>
-		<div class='divider'>
-			<div class='line'></div>
-		</div>
-		<div class='frame' id='rsvp-frame'>
-			<h2 class='left-justify header'>RS</h2>
-			<button id='bottom-rsvp' class='rsvp'>Not Open Yet</button>
-			<h2 class='right-justify header'>VP</h2>
-			<h3 class='footer'>#IGotMyMasters</h3>
-		</div>
-		<script defer>
-			document.onscroll = fade_in;
-			window.onload = fade_in;
-			function fade_in() {
-				var pageTop = window.screenY;
-				var pageBottom = pageTop + window.screen.height;
-				console.log(pageTop, pageBottom);
-				var fade_left = Array.from(document.getElementsByClassName("fade-in-left"));
-				var fade_right = Array.from(document.getElementsByClassName("fade-in-right"));
-				var tags = fade_left.concat(fade_right);
+		gtag("config", "G-WRJ1PN6SKM");
+	</script>
+	<title>Liam & Elena Masters</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
 
-				for (var i = 0; i < tags.length; i++) {
-					var tag = tags[i];
-					var rect = tag.getBoundingClientRect();
-					console.log(i, rect);
-					if (window.screen.height > window.screen.width) {
-						tag.classList.add("visible");
-						continue;
-					}
-					if (rect.top < (pageBottom - 100) && rect.bottom > pageTop) {
-						tag.classList.add("visible");
-					} else {
-						tag.classList.remove("visible");
-				    	}
-			  	}
+<body>
+	<div id="title-frame">
+		<h1 id="title">Elena & Liam</h1>
+		<h3 class="subtitle" id="top-subtitle">Come celebrate with us</h3>
+		<a href="#rsvp-frame"><button id="top-rsvp" class="rsvp">RSVP</button></a>
+	</div>
+	<div class="divider">
+		<div class="line"></div>
+	</div>
+	<div class="frame" id="date-frame">
+		<div class="frame-img fade-in-left left" id="frame-1"></div>
+		<div class="right">
+			<h2 class="center-justify header">Thursday, June 13th 2024</h2>
+			<h3 class="subtitle">3:00 to 10:00 PM</h3>
+		</div>
+	</div>
+	<div class="divider">
+		<div class="line"></div>
+	</div>
+
+	<div class="frame" id="location-frame">
+		<div class="left">
+			<a href="https://wychmerebeachclub.com" target="_blank">
+				<h2 class="center-justify header">Wychmere Beach Club</h2>
+			</a>
+			<h3 class="subtitle">Harwich Port, MA</h3>
+		</div>
+		<div class="frame-img fade-in-right right" id="frame-2"></div>
+	</div>
+	<div class="divider">
+		<div class="line"></div>
+	</div>
+	<div class="frame">
+		<div class="frame-img fade-in-left left" id="frame-3"></div>
+		<div class="right">
+			<h2 class="center-justify header">Hotels</h2>
+			<h3 class="subtitle">Rentals nearby</h3>
+			<div class="list-container">
+				<a href="https://wychmerebeachclub.com/guest-rooms" target="_blank">Wychmere Beach Club</a>
+				<a href="https://www.shoalscapecodinn.com" target="_blank">Handkerchief Shoals Inn</a>
+				<a href="https://www.kingfisherharwichport.com" target="_blank">Kingfisher Hotel</a>
+				<a href="https://www.chathamtides.com" target="_blank">Chatham Tides</a>
+				<a href="https://www.vacationcapecod.com" target="_blank">Vacation Rentals</a>
+			</div>
+		</div>
+	</div>
+	<div class="divider">
+		<div class="line"></div>
+	</div>
+	<div class="frame">
+		<div class="left">
+			<h2 class="center-justify header">Registry</h2>
+			<h3 class="subtitle">Coming Soon</h3>
+		</div>
+		<div class="frame-img fade-in-right right" id="frame-4"></div>
+	</div>
+	<div class="divider">
+		<div class="line"></div>
+	</div>
+	<div class="frame" id="rsvp-frame">
+		<h2 class="left-justify header">RS</h2>
+		<button id="bottom-rsvp" class="rsvp">Not Open Yet</button>
+		<h2 class="right-justify header">VP</h2>
+		<a href="./party"><button id="party-button" class="rsvp">Wedding Party</button></a>
+		<h3 class="footer">#IGotMyMasters</h3>
+	</div>
+	<script defer>
+		document.onscroll = fade_in;
+		window.onload = fade_in;
+		function fade_in() {
+			var pageTop = window.screenY;
+			var pageBottom = pageTop + window.screen.height;
+			console.log(pageTop, pageBottom);
+			var fade_left = Array.from(document.getElementsByClassName("fade-in-left"));
+			var fade_right = Array.from(document.getElementsByClassName("fade-in-right"));
+			var tags = fade_left.concat(fade_right);
+
+			for (var i = 0; i < tags.length; i++) {
+				var tag = tags[i];
+				var rect = tag.getBoundingClientRect();
+				console.log(i, rect);
+				if (window.screen.height > window.screen.width) {
+					tag.classList.add("visible");
+					continue;
+				}
+				if (rect.top < (pageBottom - 100) && rect.bottom > pageTop) {
+					tag.classList.add("visible");
+				} else {
+					tag.classList.remove("visible");
+				}
 			}
-		</script>
-	</body>
+		}
+	</script>
+</body>
+
 </html>
