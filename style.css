@@ -76,28 +76,6 @@ a:visited {
 	font-weight: 100;
 }
 
-#top-rsvp {
-	position: relative;
-	background-color: rgba(255, 255, 255, 0.5);
-	cursor: pointer;
-}
-
-#top-rsvp:hover {
-	background-color: #fff;
-	color: #666;
-}
-
-#bottom-rsvp {
-	position: relative;
-	background: transparent;
-	left: calc(50% - 100px);
-}
-
-#bottom-rsvp:hover {
-	background-color: #fff;
-	color: #cce6ff;
-}
-
 #frame-1 {
 	background: url('assets/liam_elena_1.jpg');
 	background-size: cover;
@@ -110,66 +88,15 @@ a:visited {
 }
 
 #frame-3 {
-	background: url('assets/liam_elena_3.jpg');
+	background: url('assets/liam_elena_7.jpg');
 	background-size: cover;
 	background-position-x: center;
 }
 
 #frame-4 {
-	background: url('assets/liam_elena_5.jpg');
+	background: url('assets/liam_elena_6.jpg');
 	background-size: cover;
 	background-position-x: center;
-}
-
-#maid-of-honour {
-	background: url('assets/maid_of_honour.jpg');
-	background-size: cover;
-	background-position-x: center;
-}
-
-#best-man {
-	background: url('assets/best_man.jpg');
-	background-size: cover;
-	background-position-x: center;
-}
-
-#officiant {
-	background: url('assets/officiant.jpg');
-	background-size: cover;
-	background-position-x: center;
-}
-
-#rsvp-frame {
-	flex-direction: column;
-	justify-content: center;
-	min-height: 40vw;
-}
-
-#party-link {
-	text-align: left;
-}
-
-#party-home {
-	position: relative;
-	background: transparent;
-	width: 150px;
-	margin: 25px;
-}
-
-#party-home:hover {
-	background-color: #fff;
-	color: #cce6ff;
-	cursor: pointer;
-}
-
-#party-button {
-	background: transparent;
-}
-
-#party-button:hover {
-	background-color: #fff;
-	color: #cce6ff;
-	cursor: pointer;
 }
 
 .divider {
@@ -224,18 +151,6 @@ a:visited {
 	flex-direction: row;
 }
 
-
-.rsvp {
-	width: 220px;
-	height: 80px;
-	font-size: 24px;
-	border-color: #fff;
-	border-style: solid;
-	border-width: 5px;
-	color: #fff;
-}
-
-
 .subtitle {
 	font-size: 36px;
 	text-align: center;
@@ -243,6 +158,28 @@ a:visited {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-weight: 100;
+}
+
+.question {
+	font-size: 30px;
+	font-weight: 50;
+	margin-bottom: 10px;
+}
+
+.answer {
+	font-size: 18px;
+	font-weight: 50;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.center {
+	position: relative;
+	width: 50%;
+	left: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .left {
@@ -295,17 +232,6 @@ a:visited {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-}
-
-.party-image {
-	width: 25vw;
-	height: 25vw;
-	border-radius: 100%;
-}
-
-.party-label {
-	width: 25vw;
-	height: 25vw;
 }
 
 h2.left-justify {
